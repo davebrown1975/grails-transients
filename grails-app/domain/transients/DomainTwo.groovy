@@ -2,11 +2,7 @@ package transients
 
 class DomainTwo {
 
-    static mapWith = "none"
-
     String colour
-
-    static mapping = {}
 
     static transients = [
         'thisFieldShouldNotPersist'
